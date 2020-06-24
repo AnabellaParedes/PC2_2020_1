@@ -11,3 +11,11 @@ def crea_algo(f,c):
 
     return Matriz
 
+def mueve_col(M,i):
+    import numpy as np
+    Array_colum = M[i:(i+1)]
+    Array_sincolum = np.delete(M,i,axis=1)
+    #para insertar
+    new_array = np.insert(Array_sincolum, Array_sincolum.shape[1], Arra_colum, axis=1)
+    return new_array
+
