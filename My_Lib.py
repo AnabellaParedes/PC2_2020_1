@@ -10,3 +10,4 @@ def crea_algo(f,c):
             Matriz[i][j]=random.randint(1,100)
 
     return Matriz
+
