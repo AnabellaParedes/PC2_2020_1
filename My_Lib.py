@@ -13,7 +13,7 @@ def crea_algo(f,c):
 
 def mueve_col(M,i):
     import numpy as np
-    Array_colum = M[0,i:(i+1)]
+    Array_colum = M[:,i]
     Array_sincolum = np.delete(M,i,axis=1)
     #para insertar
     Array_sincolum = np.insert(Array_sincolum, Array_sincolum.shape[1], Array_colum, axis=1)

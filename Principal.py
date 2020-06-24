@@ -6,7 +6,7 @@ import random
 a = np.array(My_Lib.crea_algo(4,5)).reshape((4,5))
 print(a)
 
-y=5
+y=4
 
 while y>=0:
     a = My_Lib.mueve_col(a,0)
