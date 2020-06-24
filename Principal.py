@@ -3,8 +3,7 @@ import numpy as np
 import random
 
 
-a = My_Lib.crea_algo(20,20)
-a = np.reshape((4,5))
+a = np.array(My_Lib.crea_algo(4,5)).reshape((4,5))
 print(a)
 
 y=4
